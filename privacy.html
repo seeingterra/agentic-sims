@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy policy · Agentic Sims</title>
+<meta name="description" content="What Agentic Sims, its website and its optional Patreon sign-in do with your information. In short: the app runs on your PC and we keep no database about you.">
+<meta name="theme-color" content="#082440">
+<link rel="canonical" href="https://seeingterra.github.io/agentic-sims/privacy.html">
+<link rel="icon" href="assets/gem.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css?v=33a78b57ee">
+<script src="script.js?v=b0cff33629" defer></script>
+</head>
+<body class="doc-page">
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav scrolled" id="top">
+ <div class="wrap nav-row">
+  <a class="brand" href="./" aria-label="Agentic Sims home">
+   <img src="assets/gem.svg" alt="" width="18" height="27">
+   <span>Agentic Sims</span>
+  </a>
+  <nav aria-label="Sections">
+   <a href="./#features">Features</a>
+   <a href="./#download">Setup guide</a>
+   <a href="./#faq">FAQ</a>
+   <a href="terms.html">Terms</a>
+  </nav>
+  <a class="btn btn-hero btn-small" href="./#download">Download</a>
+ </div>
+</header>
+
+<main id="main">
+ <section class="doc-hero">
+  <div class="wrap doc-wrap">
+   <p class="eyebrow eyebrow-light">Legal</p>
+   <h1>Privacy policy</h1>
+   <p class="doc-meta">Effective 17 November 2026</p>
+  </div>
+ </section>
+
+ <article class="wrap doc-wrap doc">
+  <aside class="doc-summary">
+   <h2>The short version</h2>
+   <ul class="ticks">
+    <li>Agentic Sims runs on your own PC. We don't run accounts, analytics or tracking, and we keep no database about you.</li>
+    <li>Your chats go to the Voxta server <em>you</em> choose (see <a href="https://voxta.ai/privacy" rel="noopener" target="_blank">Voxta's privacy policy</a>). Run everything locally and nothing leaves your PC.</li>
+    <li>Patreon sign-in is optional. It only checks your membership, and nothing from it is stored on our side.</li>
+    <li>This website uses no cookies and no analytics.</li>
+   </ul>
+  </aside>
+
+  <h2 id="who">Who we are</h2>
+  <p>Agentic Sims is a free, unofficial fan-made mod for The Sims 4, made by an independent developer who publishes as <a href="https://www.patreon.com/starmoose/" rel="noopener">starmoose on Patreon</a> ("we", "us"). This policy covers the Agentic Sims app (the desktop app, the companion, the in-game Live Chat panel and the game mod), this website, and the optional preview sign-in service.</p>
+
+  <h2 id="app">The app: what stays on your PC</h2>
+  <p>Agentic Sims works with information from your game and keeps it in its own installation folder on your computer. This includes:</p>
+  <ul>
+   <li>details about your Sims and households that the game reports (names, traits, needs, moods, relationships, where they are);</li>
+   <li>your conversations, the memories and backstories the app writes for your Sims, and their history;</li>
+   <li>your settings, the list of installed mods it works with, and the connection key that pairs it with your Voxta server;</li>
+   <li>a device code (explained below) and, if you sign in, your preview access.</li>
+  </ul>
+  <p>The app has no telemetry: it does not send usage statistics, crash reports or your files to us. To remove everything, uninstall the app and delete its installation folder. Your game saves are your own and are not changed by uninstalling.</p>
+
+  <h2 id="voxta">Conversations and Voxta</h2>
+  <p>Agentic Sims doesn't run AI itself. It sends what a conversation needs to the <a href="https://voxta.ai/?utm_source=agentic-sims&amp;utm_medium=referral&amp;utm_campaign=agentic-sims-site&amp;utm_content=privacy" rel="noopener" target="_blank">Voxta</a> server you connect it to: what you type or say, your Sims' character details, and the game situation (for example who is nearby, their mood and, with mod support on, context from supported mods).</p>
+  <ul>
+   <li><strong>Everything local:</strong> if your Voxta server and its AI services (language model, voice, speech recognition) run on your own computer, your conversations don't leave it.</li>
+   <li><strong>Cloud services:</strong> if you use Voxta Cloud or cloud AI providers through Voxta, that information goes to them under their own privacy policies. You choose these in Voxta, not in Agentic Sims.</li>
+   <li><strong>Voice:</strong> microphone input and speech are handled by Voxta, not by Agentic Sims.</li>
+  </ul>
+  <p>Voxta needs you to sign in online to install its features. That account is between you and Voxta. Please read <a href="https://voxta.ai/privacy" rel="noopener" target="_blank">Voxta's privacy policy</a> and <a href="https://voxta.ai/terms" rel="noopener" target="_blank">Voxta's terms of service</a>, which apply whenever you use Voxta with Agentic Sims.</p>
+
+  <h2 id="previews">Optional: preview features and Patreon sign-in</h2>
+  <p>Patreon supporters can try new features before they open to everyone. Signing in is optional, and every preview feature becomes available to all players on its public date without it.</p>
+  <p>When you choose <em>Sign in with Patreon</em> in the desktop app, your browser goes to Patreon through our small sign-in service, which runs on Cloudflare Workers. With your permission, Patreon tells the service:</p>
+  <ul>
+   <li>your Patreon user id and first name, and</li>
+   <li>whether you're an active member of our campaign and which tiers you have.</li>
+  </ul>
+  <p>The service uses this once and stores nothing: it has no database. It turns your Patreon user id into a one-way code that can't be turned back into the id, and sends the app a signed access pass containing that code, your first name, your tier, the unlocked features, its dates and your device code. So that access can renew by itself, it also sends an encrypted renewal handle that holds Patreon's refresh token. Only the sign-in service can read it, and it is kept only on your PC.</p>
+  <p>The <strong>device code</strong> is a one-way code made from your Windows installation's machine id. It ties an access pass to one PC so it can't simply be copied, and it cannot be used to identify you or your computer anywhere else.</p>
+  <p>Like any website host, Cloudflare processes your IP address and basic request details to deliver and protect the service. See <a href="https://www.cloudflare.com/privacypolicy/" rel="noopener" target="_blank">Cloudflare's privacy policy</a> and <a href="https://privacy.patreon.com/" rel="noopener" target="_blank">Patreon's privacy policy</a>. As a creator, we also see the usual membership information Patreon shows creators. That comes from Patreon, not from the app.</p>
+  <p>To stop: choose <em>Sign out</em> in the app (this deletes the pass and renewal handle from your PC), and remove Agentic Sims under <em>Apps</em> in your Patreon settings to cancel its access.</p>
+
+  <h2 id="website">This website</h2>
+  <p>This website is hosted on GitHub Pages. It sets no cookies and has no analytics, ads or trackers. GitHub may log visitors' IP addresses to run and secure the service; see <a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement" rel="noopener" target="_blank">GitHub's privacy statement</a>. Downloads come from GitHub too. Links to Voxta include a tag showing the visit came from this site; the tag contains nothing about you.</p>
+
+  <h2 id="mods">Other mods and the game</h2>
+  <p>Agentic Sims reads which supported mods are installed so it can work with them. Those mods and The Sims 4 itself have their own terms and privacy practices. Agentic Sims doesn't send anything to their makers or to Electronic Arts.</p>
+
+  <h2 id="rights">Your choices and rights</h2>
+  <p>Because the app keeps your information on your PC and our sign-in service keeps none, you're in control: you can see, change or delete it at any time by using the app or deleting its folder. Depending on where you live (for example in the EEA or the UK under the GDPR), you have rights to access, correct, delete and object to the use of personal data, and to complain to your data protection authority. Where we use your Patreon details to give you preview access, we do so to provide what you asked for. If you have a question or a request, message us on Patreon.</p>
+
+  <h2 id="age">Age</h2>
+  <p>Agentic Sims is for adults (18+). It uses AI-generated conversation and can work with mods that have mature content. We don't knowingly handle information about children.</p>
+
+  <h2 id="changes">Changes to this policy</h2>
+  <p>If what the app or the sign-in service does with information changes, we'll update this page and its date. For important changes, we'll also mention it in the release notes.</p>
+
+  <h2 id="contact">Contact</h2>
+  <p>Questions about privacy: message <a href="https://www.patreon.com/starmoose/" rel="noopener">starmoose on Patreon</a>. See also our <a href="terms.html">terms of use</a>.</p>
+ </article>
+</main>
+
+<footer class="footer">
+ <div class="wrap footer-row">
+  <div>
+   <a class="brand" href="./"><img src="assets/gem.svg" alt="" width="14" height="21"><span>Agentic Sims</span></a>
+   <p>Pre-release test build. Not for your main save.</p>
+  </div>
+  <nav aria-label="Footer">
+   <a href="./#download">Download</a>
+   <a href="https://www.patreon.com/starmoose/" rel="noopener">Patreon</a>
+   <a href="privacy.html" aria-current="page">Privacy</a>
+   <a href="terms.html">Terms</a>
+  </nav>
+ </div>
+ <p class="wrap legal">Agentic Sims is an unofficial fan-made mod and is not affiliated with, endorsed or sponsored by Electronic Arts Inc., Maxis or Voxta. The Sims is a trademark of Electronic Arts Inc.</p>
+</footer>
+</body>
+</html>
