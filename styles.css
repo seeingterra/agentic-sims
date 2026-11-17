@@ -222,6 +222,13 @@ code { font-size: .92em; background: #e6f0f8; padding: .1em .4em; border-radius:
 .tag-adult { background: #fde9e7; color: #86231e; letter-spacing: .04em; }
 
 /* Download & setup guide */
+.release-highlights { background: var(--white); border: 1px solid var(--line); border-radius: var(--radius); padding: clamp(22px, 4vw, 32px); margin-bottom: 28px; }
+.release-highlights .eyebrow { margin-bottom: 10px; }
+.release-highlights h3 { font-size: clamp(1.35rem, 3vw, 1.65rem); }
+.release-highlights ul { margin: 18px 0 12px; padding-left: 22px; }
+.release-highlights li { margin-bottom: 10px; }
+.release-highlights p:not(.eyebrow) { color: var(--muted); font-size: .94rem; }
+.release-highlights .link { white-space: normal; overflow-wrap: anywhere; }
 .dl-grid { display: grid; grid-template-columns: 1fr 1.15fr 1fr; gap: 20px; align-items: stretch; }
 .dl-card { position: relative; background: var(--white); border: 1px solid #e3eef6; border-radius: var(--radius); padding: 30px 28px; display: flex; flex-direction: column; gap: 12px; box-shadow: 0 18px 40px -28px rgba(11, 58, 94, .45); }
 .dl-card h3 { font-size: 1.35rem; }
