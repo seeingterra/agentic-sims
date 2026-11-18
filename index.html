@@ -338,16 +338,16 @@
   </aside>
 
   <aside class="release-highlights" id="release-notes" aria-labelledby="release-title">
-   <p class="eyebrow">Latest release · 0.3.11-preview</p>
+   <p class="eyebrow">Latest release · 0.3.12-preview</p>
    <h3 id="release-title">The important fixes, at a glance.</h3>
    <ul>
-    <li><strong>Your Sims get voices.</strong> Each Sim gets a voice that suits them, or pick one, or give them their own from a short clip. Agentic Sims can switch Voxta's voices on for you.</li>
-    <li><strong>Real Sim portraits.</strong> Snap a portrait from your game in one click; it shows in Agentic Sims, the Live Chat panel and on the Voxta character.</li>
-    <li><strong>Easy to find in Voxta.</strong> Your Sims' characters are tagged "The Sims 4" and "Agentic Sims".</li>
+    <li><strong>In-game speech playback · early experimental preview.</strong> The Live Chat panel now plays Voxta audio, with a remembered Hear their voice switch.</li>
+    <li><strong>Less work before chat opens.</strong> Portrait loading no longer holds up the panel, and repeated personality checks are avoided.</li>
+    <li><strong>Clearer voice troubleshooting.</strong> Playback warnings and connection timings help explain silence or a slow connection.</li>
    </ul>
-   <p>This is still a test build. Keep using a spare save.</p>
+   <p>Early experimental preview. Speech and live-game performance still need testing. Use a spare save.</p>
    <div class="dl-actions">
-    <a class="link" href="https://github.com/seeingterra/agentic-sims/releases/tag/v0.3.11-preview">Read the full 0.3.11 release notes →</a>
+    <a class="link" href="https://github.com/seeingterra/agentic-sims/releases/tag/v0.3.12-preview">Read the full 0.3.12 release notes →</a>
     <a class="link" href="https://github.com/seeingterra/agentic-sims/releases">Full changelog</a>
    </div>
   </aside>
@@ -449,6 +449,18 @@
    <details>
     <summary>Which Voxta services do I need?</summary>
     <p><strong>Text generation is the only one you need.</strong> It writes your Sims' replies and chooses their actions and gestures, so leave action inference on its default (handled by text generation). <strong>Text-to-speech is recommended</strong> so you can hear them. Speech-to-text (talking instead of typing) and Memory are optional. Voxta Lite with Voxta Cloud covers all of these with no local setup.</p>
+   </details>
+   <details>
+    <summary>How do I hear my Sims? Is speech playback experimental?</summary>
+    <p><strong>Yes. In-game speech is an early experimental preview.</strong> Enable a text-to-speech service in Voxta and choose an available voice for the linked character. Start Live Chat, then leave <strong>Hear their voice · experimental</strong> on in the panel's ⋯ menu. It defaults on and remembers your choice. Send a new message after connecting; old replies are not replayed. Audio uses your Windows output device. Microphone input is separate and still opens in your browser.</p>
+   </details>
+   <details>
+    <summary>TTS is enabled in Voxta. Why is the chat silent?</summary>
+    <p>Check <strong>Hear their voice</strong>, Windows volume/mixer and output device, and the linked character's voice in Voxta. Only one player can own a chat's audio: turn off speech playback in another browser/dashboard before using the in-game panel. After fixing a service, toggle playback off/on and send a new message. This first native player targets WAV/MP3; some provider formats or Windows media setups may fail. You can keep typing while speech is off. Audible playback across real providers is still being tested.</p>
+   </details>
+   <details>
+    <summary>Why does a conversation take a long time to open?</summary>
+    <p>A new personality, a cold local model or a busy Voxta service can take time. This update moves portraits off the startup path and avoids repeated personality checks. The app's Activity view now records preparation and connection durations. If it is still slow, report those timings, your service names and whether the chat was new or resumed. Never share API keys or tokens. We have not yet measured a live-game speed improvement.</p>
    </details>
    <details>
     <summary>Which Voxta Cloud model should I use?</summary>
