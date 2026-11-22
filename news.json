@@ -14,17 +14,17 @@
   },
   "note": "Add posts with tools/add_news.py, then run tools/publish_site.py.",
   "blast": {
-    "id": "0.3.19-preview",
-    "version": "0.3.19-preview",
+    "id": "0.3.20-preview",
+    "version": "0.3.20-preview",
     "early_access": true,
-    "eyebrow": "NEW IN 0.3.19",
-    "title": "Everyone pulls up a chair.",
-    "lead": "Group chats are here: invite anyone nearby into your Live Chat, and the group talks, sits, orders and plays together.",
+    "eyebrow": "NEW IN 0.3.20",
+    "title": "Every chat just starts.",
+    "lead": "Live Chat and group chats start reliably and reply faster, and you can now choose your Sims' AI right from Live Chat.",
     "points": [
-      "Your world lives on its own: anyone you chat with comes alive, Sims seek each other out, and you can see what they've…",
-      "Group chats: click a Sim and choose Invite to Live Chat, or add someone from the chat panel: they walk over, everyone…",
-      "Same table, same plans: the whole group sits at one table, joins the same activity and orders together, with the…"
+      "A world that keeps living: sims living their own lives keep looking after themselves and seeking each other out…",
+      "Chats start every time: live Chat and group chats no longer stall or fail when several Sims are living their own lives.",
+      "Faster first replies: even a Sim's very first conversation answers quickly."
     ],
-    "image": "news/blast-0.3.19-preview.webp"
+    "image": "news/blast-0.3.20-preview.webp"
   }
 }
