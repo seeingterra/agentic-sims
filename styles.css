@@ -394,3 +394,18 @@ code { font-size: .92em; background: #e6f0f8; padding: .1em .4em; border-radius:
 @keyframes splash-bob { 0%,100% { transform: translateY(-6px); } 50% { transform: translateY(6px); } }
 @media (max-width: 720px) { .splash-inner { padding: 80px 16px 60px; } .splash-shade { background: linear-gradient(0deg, rgba(7,29,52,.96) 30%, rgba(7,29,52,.6) 100%); } .splash-cta .btn { width: 100%; justify-content: center; } }
 @media (prefers-reduced-motion: reduce) { .splash-bg, .splash-glow, .splash-gem img { animation: none; } }
+
+
+/* Feature news (below the hero): what's new, launcher style but contained */
+.feature-news { padding: 36px 0 12px; }
+.feature-news-card { display: grid; grid-template-columns: 1.15fr 1fr; gap: 36px; align-items: center; background: linear-gradient(135deg, #071d34 0%, #0a4a86 60%, #127f7a 100%); color: #fff; border-radius: 28px; padding: 28px; box-shadow: 0 24px 60px rgba(7,29,52,.28); position: relative; overflow: hidden; }
+.feature-news-card::before { content: ""; position: absolute; width: 520px; height: 520px; right: -160px; top: -220px; border-radius: 50%; background: radial-gradient(circle, rgba(168,236,90,.22), transparent 65%); pointer-events: none; }
+.feature-news-shot { margin: 0; border-radius: 20px; overflow: hidden; border: 2px solid rgba(255,255,255,.25); box-shadow: 0 16px 40px rgba(0,0,0,.35); }
+.feature-news-shot img { display: block; width: 100%; height: auto; }
+.feature-news-copy h2 { margin: 6px 0 12px; font-size: clamp(1.9rem, 4vw, 2.8rem); line-height: 1.05; letter-spacing: -.02em; color: #fff; }
+.feature-news-copy p { color: #dceffb; }
+.feature-news-copy .splash-tag { margin: 0; }
+.feature-news-ghost { background: rgba(255,255,255,.12); color: #fff; border: 1px solid rgba(255,255,255,.35); }
+.feature-news-ghost:hover { background: rgba(255,255,255,.22); transform: translateY(-2px); }
+.feature-news-note { font-size: .9rem; color: #9cc7e4 !important; margin-top: 14px; }
+@media (max-width: 860px) { .feature-news-card { grid-template-columns: 1fr; padding: 18px; gap: 20px; } .feature-news .splash-cta .btn { width: 100%; justify-content: center; } }

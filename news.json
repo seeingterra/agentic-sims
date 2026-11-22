@@ -14,17 +14,17 @@
   },
   "note": "Add posts with tools/add_news.py, then run tools/publish_site.py.",
   "blast": {
-    "id": "0.3.18-preview",
-    "version": "0.3.18-preview",
+    "id": "0.3.19-preview",
+    "version": "0.3.19-preview",
     "early_access": true,
-    "eyebrow": "NEW IN 0.3.18",
+    "eyebrow": "NEW IN 0.3.19",
     "title": "Your world lives on its own",
-    "lead": "Anyone you chat with comes alive: they take care of themselves, seek each other out, join group conversations and come over to see you.",
+    "lead": "Anyone you chat with comes alive, Sims seek each other out, and you can see what they've been up to in the World tab.",
     "points": [
-      "Personality that grows: every Sim remembers what they live through, and who they're closest to, and it shapes how they…",
-      "Direct the story: give a Sim a story goal (\"get fit\", \"win back Max\") or set what's happening in the world…",
-      "New dreams: what keeps happening can give a Sim a new aspiration, like Bodybuilder after all those workouts."
+      "Group chats: click a Sim and choose Invite to Live Chat, or add someone from the chat panel: they walk over, everyone…",
+      "Same table, same plans: the whole group sits at one table, joins the same activity and orders together, with the…",
+      "Chats that hold: conversations no longer drop when a Sim moves around, and starting a new chat while you're in one…"
     ],
-    "image": "news/blast-0.3.18-preview.webp"
+    "image": "news/blast-0.3.19-preview.webp"
   }
 }
