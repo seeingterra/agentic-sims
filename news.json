@@ -1,0 +1,7 @@
+{
+  "patreon_latest": {
+    "title": "Support & bug reports: how to get help",
+    "url": "https://www.patreon.com/starmoose/posts/support-bug-175793803"
+  },
+  "note": "Update patreon_latest when you post on Patreon, then run tools/publish_site.py."
+}
