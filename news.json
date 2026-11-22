@@ -1,7 +1,15 @@
 {
+  "posts": [
+    {
+      "title": "Support & bug reports: how to get help",
+      "date": "2026-11-19",
+      "summary": "Something odd in your game? Here's the quickest way to get help and report a bug, and what to include so it gets fixed fast.",
+      "url": "https://www.patreon.com/starmoose/posts/support-bug-175793803"
+    }
+  ],
   "patreon_latest": {
     "title": "Support & bug reports: how to get help",
     "url": "https://www.patreon.com/starmoose/posts/support-bug-175793803"
   },
-  "note": "Update patreon_latest when you post on Patreon, then run tools/publish_site.py."
+  "note": "Newest post first in 'posts' (title, date YYYY-MM-DD, one-line summary, url). Keep patreon_latest equal to the first post for older installers. Then run tools/publish_site.py."
 }
