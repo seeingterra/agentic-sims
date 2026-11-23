@@ -433,6 +433,7 @@ code { font-size: .92em; background: #e6f0f8; padding: .1em .4em; border-radius:
 .rm-tag { font-size: .72rem; font-weight: 800; letter-spacing: .02em; padding: 3px 9px; border-radius: 999px; white-space: nowrap; }
 .rm-free { background: #e6f6d9; color: #24560f; }
 .rm-ea { background: #fff1d6; color: #7a4d00; }
+.rm-new { background: #dcebff; color: #0a4f8f; }
 .rm-cta { margin-top: 24px; display: flex; flex-wrap: wrap; gap: 16px; align-items: center; justify-content: space-between; background: linear-gradient(135deg, #071d34 0%, #0a4a86 60%, #127f7a 100%); color: #fff; border-radius: 22px; padding: 20px 24px; }
 .rm-cta div { font-size: 1.05rem; color: #dceffb; }
 .rm-cta strong { color: #fff; }

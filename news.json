@@ -14,17 +14,17 @@
   },
   "note": "Add posts with tools/add_news.py, then run tools/publish_site.py.",
   "blast": {
-    "id": "0.3.20-preview",
-    "version": "0.3.20-preview",
+    "id": "0.3.21-preview",
+    "version": "0.3.21-preview",
     "early_access": true,
-    "eyebrow": "NEW IN 0.3.20",
-    "title": "Every chat just starts.",
-    "lead": "Live Chat and group chats start reliably and reply faster, and you can now choose your Sims' AI right from Live Chat.",
+    "eyebrow": "NEW IN 0.3.21",
+    "title": "Meet the blue plumbob.",
+    "lead": "See which Sims are living their own lives, and enjoy chats that stay connected.",
     "points": [
-      "A world that keeps living: sims living their own lives keep looking after themselves and seeking each other out…",
-      "Chats start every time: live Chat and group chats no longer stall or fail when several Sims are living their own lives.",
-      "Faster first replies: even a Sim's very first conversation answers quickly."
+      "A blue plumbob floats over Sims living their own lives, and pulses while they think or act.",
+      "Chats that stay connected, with fixes for big saves and slower drives.",
+      "Sims who follow through, and know what really happened."
     ],
-    "image": "news/blast-0.3.20-preview.webp"
+    "image": "news/blast-0.3.21-preview.webp"
   }
 }
